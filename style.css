@@ -336,6 +336,7 @@ ul li:nth-child(1) a{
 
 .page4 h4{
     font-size: 40px;
+    line-height: 45px;
 }
 
 .page4 h5{
@@ -460,7 +461,18 @@ ul li:nth-child(1) a{
     }
     .right-sample{
         width: 100%;
-        padding: 10vh;
+        padding: 10vh 0;
         font-size: 18px;
+    }
+}
+
+
+@media  screen and (max-width: 600px) {
+
+    .action-btns{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
     }
 }
