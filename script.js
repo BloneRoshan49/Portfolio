@@ -10,7 +10,6 @@ function mouseCursor(){
         let y = e.pageY + "px"; 
 
         cursor.style.opacity = 1;
-        cursor.style.transition = "0.1s"
         cursor.style.left = x;
         cursor.style.top = y;
     })
@@ -18,7 +17,6 @@ function mouseCursor(){
 
 
 frontground.addEventListener("mouseleave", ()=>{
-    cursor.style.transition = "0.5s"
     cursor.style.opacity = 0;
 
 })

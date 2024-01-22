@@ -65,12 +65,12 @@ overflow-y: scroll;
     z-index: 99;
     pointer-events: none;
     mix-blend-mode: color;
-
     display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(88, 85, 85);
-
+  opacity: 0;
+  transition: all 0.1s;
 }
 
 
